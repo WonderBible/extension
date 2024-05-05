@@ -1,0 +1,11 @@
+{
+    "name": "WonderBible",
+    "version": "1.0.0",
+    "description": "The Official Browser-Extension Of WonderBible/Valt-Wel",
+    "manifest_version": 3,
+    "author": "Barok & Wel",
+    "action": {
+        "default_popup" : "index.html",
+        "default_title" : "WonderBible Extension"
+    }
+}
