@@ -7,5 +7,18 @@
     "action": {
         "default_popup" : "index.html",
         "default_title" : "WonderBible Extension"
-    }
+    },
+    "icons": 
+        {
+          "16": "WB Logo.png",
+          "48": "WB Logo.png",
+          "128": "WB Logo.png"
+        },
+    "page_action": {
+      "default_icon": {
+        "16": "WB Logo.png",
+        "48": "WB Logo.png",
+        "128": "WB Logo.png"
+      }
+    } 
 }
