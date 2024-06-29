@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta content="Browser-Extension | WonderBible/Valt-Wel" property="og:title"/>
+    <meta content="WonderBible - The Free Way To Read The Bible & Measure Your Knowledge Of Bible By Playing ScriptureQuest By Valt-Wel/Wel & Barok." property="og:description"/>
+    <meta content="https://wonderbible.world/WB%20Logo.png" property="og:image"/>
     <link rel="manifest" href="manifest.json">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,14 +21,14 @@
     <link rel="stylesheet" href="./options.css">
   </head>
   <body>
+    <div id="preloader"></div>
     <header style="background-color: #ffffff;">
       <div id="brand">
         <p style="text-align: center;"><a style="text-align: center;" href="https://wonderbible.world" target="_blank"><img title="WonderBible HomePage" style="display: inline-block; border-color: blue; float:left; margin-right: 20px; margin-bottom: 0; margin-left:20px; cursor:pointer;" src="https://wonderbible.world/WB Logo.png" onclick="document.location='https://wonderbible.world'" width="60"></a></p>
       </div>
     </header>
     <script src="FFB.js"></script>
-    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/DUm8PWORq2o?si=JaLyHJE_GJf8KFpP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </body> 
+    <script type="text/javascript" src="https://www.kingjamesbibleonline.org/biblesearchwidget.js"></script>
     <link rel="stylesheet" href="FFB.css">
     <script src="FFB.js"></script>
     <div style="margin-top:0; background-color:black; height:430px; color:white;" class="sm">
@@ -77,4 +80,13 @@
       <p style="margin-top:20px; text-align: center;" class="copyright">&#169; Copyright 2024 <strong style="color:#5d00ff;">V</strong>alt-<strong style="color:orange">W</strong>el. All right reserved.</p>
       <p class="copyright"><span style="color:#7e7e7e; margin-left: 50px;" class="policy" onclick="document.location='https://wonderbible.world/privacy'">Privacy Policy</span> <span style="color:#7e7e7e; margin-left: 20px;" class="policy" onclick="document.location='https://wonderbible.world/terms'">Terms Of Service</span> <span style="color:#7e7e7e; margin-left: 20px;" class="policy" onclick="document.location='https://wonderbible.world/contact.html'">Contact</span></p>
     </div>
+    <script>
+      var loader = document.getElementById("preloader");
+
+      window.addEventListener("load", function(){
+        
+        loader.style.display = "none";
+      })
+     </script>
+  </body> 
 </html>
